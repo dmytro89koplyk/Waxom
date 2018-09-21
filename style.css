@@ -1,0 +1,1542 @@
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, big, em, font, img, small, strong, sub, sup, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit;  font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+:focus { outline: 0;}
+ol, ul { list-style: none;}
+table { border-collapse: separate; border-spacing: 0;}
+caption, th, td { text-align: left; font-weight: normal;}
+strong,b{font-weight:bold}
+em{font-style:italic}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+* {box-sizing: border-box}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.eot');
+    src: url('fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Raleway-Regular.woff2') format('woff2'),
+        url('fonts/Raleway-Regular.woff') format('woff'),
+        url('fonts/Raleway-Regular.ttf') format('truetype'),
+        url('fonts/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.eot');
+    src: url('fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Raleway-Medium.woff2') format('woff2'),
+        url('fonts/Raleway-Medium.woff') format('woff'),
+        url('fonts/Raleway-Medium.ttf') format('truetype'),
+        url('fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff'),
+        url('fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clear{
+	clear:both;
+}
+.base{
+	width:100%;
+	height:100%;
+}
+#featured img{
+	height:1020px;
+	width:100%;}
+.slider{
+	width:100%;
+	height:1020px;
+	/*background-image: url(images/slider.jpg); 
+	background-repeat:no-repeat;*/
+    background-size:100%;
+	
+}
+.center{
+	width:1100px;
+	margin:0 auto;
+}
+#featured{
+	width: 100%;
+	  filter: brightness(49%);
+}
+.header{
+	width: 1120px;
+	height:120px;
+	margin:0 auto;
+	float:left;	
+	position: absolute;
+	z-index: 6;
+}
+.logo{
+	width:200px;
+	height:120px;
+	float:left;
+}
+.logo img{
+	margin-top:50px;
+}
+.menu{
+	width:740px;
+	height:120px;
+	float:left;
+	margin-left: 175px;
+}
+.menu nav li{
+	float:left;
+	margin-right: 25px;
+    margin-top: 70px;
+}
+.menu nav li a{
+	text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	color:#fff;
+	font-size:14px;
+}
+.menu nav li a:hover{
+	color:#c7b299;
+}
+.sliderdesk{
+	width:670px;
+	height:330px;
+	margin-top: 320px;
+    margin-left: 200px;
+}
+.descdesign{
+	font-family: 'Raleway-Medium', sans-serif;
+	font-size: 36px;
+	color: #FFFFFF;
+	text-align: center;
+	
+}
+.fattext{
+	font-family: 'Raleway-Regular', sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight:bolder;
+	margin-top: 10px;
+}
+.monseratlight{
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight:400;
+	margin-top: 10px;	
+}
+#started{
+	width:165px;
+	height: 45px;
+	background-color: #998675;
+	margin: 55px 250px;
+	font-family: 'Raleway-Regular', sans-serif;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	border-bottom:3px solid  #736357;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#started:hover{     
+	background: linear-gradient(to top, #998675, #c7b299);
+}
+.ralewaysem{
+	font-family: 'Raleway-Regular', sans-serif;
+	font-weight:700;
+	font-size: 22px;
+	color: #555555;
+}
+.about{
+    width: 100%;
+	height: 310px;
+	background: #fff;
+	float: left;
+}
+.about a{
+	text-decoration: none;
+}
+.about .ralewaysem{
+	text-align: center;
+	margin-top: 45%;
+}
+.about .monseratlight{
+	color:#8c8c8c;
+	background-image: url(images/line.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	padding-bottom: 25px;
+	margin-top: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 14px;
+}
+.mons{opacity: 1;}
+
+.web{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-image: url(images/pencil.png);
+	background-position: center 55px;
+	background-repeat: no-repeat;	
+}
+.web:hover{
+ filter: sepia(100%);
+}
+.dev{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-image: url(images/dev.png);
+	background-position: center 55px;
+	background-repeat: no-repeat;	
+}
+.dev:hover{
+ filter: sepia(100%);
+}
+.cust{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-image: url(images/custom.png);
+	background-position: center 55px;
+	background-repeat: no-repeat;	
+}
+.cust:hover{
+ filter: sepia(100%);
+}
+.mark{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-image: url(images/env.png);
+	background-position: center 55px;
+	background-repeat: no-repeat;	
+}
+.mark:hover{
+ filter: sepia(100%);
+}
+
+
+.web:hover{
+	opacity:0.6
+}
+.proj{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	float: left;
+}
+.proj .ralewaysem{
+    text-align: center;
+	font-size: 30px;
+}
+.proj .monseratlight{
+	text-align: center;
+	font-size: 16px;
+	color: #8c8c8c;
+	padding: 0px 190px 0px 190px;
+}
+.projmenu{
+	width: 60%;
+	height: 75px;
+	float:left;
+	margin-left: 295px;
+}
+.projmenu ul li{
+	display: inline-block;
+}
+.projmenu ul li a{
+	padding:5px 15px 5px 15px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	color:#8c8c8c;
+	font-size:14px;
+    border:1px  solid  #ebebeb;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+.projmenu ul li a:hover{
+	background: #998675;
+	color:#fff;
+}
+.works{
+	width: 100%;
+	height: 735px;
+	float: left;
+}
+.ralewaymed{
+	font-family: 'Raleway-Medium', sans-serif;
+	font-size: 14px;
+	color:#c7b299;
+}
+.phone{
+	width: 30%;
+	height: 340px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/phone.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;	
+	background-color: #fbfaf8;
+	background-size:100% 278px; 
+}
+.works .ralewaymed{
+    text-transform: capitalize;
+	margin-left: 25px;
+	margin-top: 288px;
+	font-size: 16px;
+}
+.works .monseratlight{
+	margin-left: 25px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #d1d1d1;
+	text-align: left;
+}
+
+.rocks{
+	width: 30%;
+	height: 340px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/rocks.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;	
+	background-color: #fbfaf8;
+	background-size:100% 278px;
+}
+.book{
+	width: 30%;
+	height: 340px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/book.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;	
+	background-color: #fbfaf8;
+	background-size:100% 278px;
+}
+
+.phone:hover{
+	filter: saturate(200%);
+	cursor: pointer;
+}
+
+.rocks:hover{
+	filter: saturate(200%);
+	cursor: pointer;
+}
+
+.book:hover{
+	filter: saturate(200%);
+	cursor: pointer;
+}
+
+.Claritas:hover{
+	filter: saturate(200%);
+	cursor: pointer;
+}
+.Quam:hover{
+	filter: saturate(200%);
+	cursor: pointer;
+	}
+.Usus:hover{
+	filter: saturate(200%);
+	cursor: pointer;}	
+
+.Claritas{
+	width: 30%;
+	height: 340px;
+	margin-top: 25px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/bird.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;	
+	background-color: #fbfaf8;
+	background-size:100% 278px;
+}
+.Quam{
+	width: 30%;
+	height: 340px;
+	margin-top: 25px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/mag.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;	
+	background-color: #fbfaf8;
+	background-size:100% 278px;
+}
+.Usus{
+	width: 30%;
+	height: 340px;
+	margin-top: 25px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/sea.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;	
+	background-color: #fbfaf8;
+	background-size:100% 278px;	
+}
+.load{
+	width:50%;
+	height: 100px;
+	margin: 0 auto;
+}
+#load{
+	width:165px;
+	height: 45px;
+	background-color: #998675;
+	margin: 20px 192px;
+	font-family: 'Raleway-Regular', sans-serif;
+	font-weight:bolder;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	border-bottom:3px solid  #736357;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#load:hover{     
+	background: linear-gradient(to top, #998675, #c7b299);
+}
+.mobdev{
+	width:100%;
+	height: 690px;
+	background: #fbfaf8;
+}
+.hand{
+	width:50%;
+	height: 690px;
+	float:left;
+	background-image: url(images/hand.png);
+	background-repeat:no-repeat;
+	background-position: bottom right;
+}
+.mob{
+	width: 50%;
+	height: 690px;
+	float: right;
+}
+
+.mob .ralewaysem{
+	margin-top: 190px;
+}
+.mob .monseratlight{
+	color:#8c8c8c;
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.mob ul{
+	 list-style-image: url(images/arow.png);
+	margin-top: 30px;
+	margin-left: 40px;
+}	
+.mob ul li{
+	font-family: 'Montserrat-Regular', sans-serif;
+	color:#8c8c8c;
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.5;
+	padding-left: 15px;
+	padding-top: 6px;
+
+}	
+.cont{
+	margin-top: 45px;
+}
+.news{
+   width:100%;
+	height: 450px;
+	float:left;	
+}
+.foot{
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/legs.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 220px;
+	border: 1px solid #f8f8f8;
+}
+.foot:hover{
+	 background-color: #362f2d;
+	 filter: brightness(0.8);
+	 color:#000;
+}
+.news  .ralewaymed:hover{
+	color: #c7b299;
+}
+.news .monseratlight:hover{
+	color:#fff;
+	
+}
+.news .arow:hover{
+	filter:none;
+}
+.foot .arow{
+	margin-top: 40px;
+	margin-left: 20px;
+	position: absolute;
+}
+.news .ralewaymed {
+	margin-top: 240px;
+	margin-left: 20px;
+	font-size: 20px;
+	color:#606060;
+}
+
+.news .monseratlight{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #8c8c8c;
+	text-align: left;
+}
+
+.date{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	padding: 2px 6px 3px 7px;
+	background: #363636;
+	color: #fff;
+	border-radius: 3px;
+	margin-top: 15px;
+	margin-left:15px;
+    position: absolute;
+}
+.news .date:hover{
+	background: #c7b299;
+}
+.news .month:hover{
+	background: #a48d72;
+}
+.month{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding: 3px 9px 3px 8px;
+	background: #252525;
+	color: #fff;
+	border-radius: 3px;
+	margin-top:46px;
+	margin-left:15px;
+    position: absolute;
+}
+.arow{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: capitalize;
+	font-size: 14px;
+	color:#c7b299;
+	background-image: url(images/arrow1.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 15px;
+}
+
+.comp{
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/comp.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 220px;
+	border: 1px solid #f8f8f8;
+}
+.comp:hover{
+	 background-color: #362f2d;
+	 filter: brightness(0.8);
+	 
+}
+
+.comp .arow{
+	margin-top: 40px;
+	margin-left: 20px;
+	position: absolute;
+}
+.ship{
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin-right: 3%;
+	background-image: url(images/ship.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 220px;
+	border: 1px solid #f8f8f8;
+}
+.ship:hover{
+	 background-color: #362f2d;
+	 filter: brightness(0.8);
+}
+.ship .arow{
+	margin-top: 40px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+.footer{
+	width: 100%;
+	height: 510px;
+	float: left;
+	background-color: #191919;
+}
+.wax{
+	width:22%;
+	height: 450px;
+	float: left;
+	margin-right: 3%;
+	margin-top: 60px;
+	background-image: url(images/logos.png)	;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.footercont{
+	width: 100%;
+	height: 510px;
+	background-color: #191919;
+}
+.wax .monseratlight{
+	text-align: left;
+	font-size: 14px;
+	color:#555555;
+	margin-top: 75px;
+	line-height: 1.5;
+}
+.wax .arow{
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 0px;
+	position: absolute;
+	background-image: url(images/arrow2.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.posts{
+	width:22%;
+	height: 450px;
+	float: left;
+	margin-top: 60px;
+    margin-right: 3%;
+}
+.postsfl{
+	width: 99%;
+	height: 90px;
+	border-bottom: 1px solid #252525;
+	
+}
+.postsemt{
+	width: 99%;
+	height:55px;	
+}
+.foottextfat{
+	font-family: 'Raleway-Regular', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	text-align: left;
+}
+.posts .foottextfat{
+	margin-top: 15px;
+}
+.footertime{
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 12px;
+	color: #363636;
+}
+.posts .monseratlight{
+	font-size: 14px;
+	color:#555555;
+	text-align: left;
+}
+.footertime:hover{
+	color: #fff;
+}
+.posts .postsemt .monseratlight:hover{
+	color:#c7b299;
+}
+.posts .postsfl .monseratlight:hover{
+	color:#c7b299;
+}
+
+.twit{
+	width:22%;
+	height: 450px;
+	float: left;
+	margin-top: 60px;
+    margin-right: 3%;
+}
+.twit .foottextfat{
+	margin-top: 15px;
+}
+.twit .monseratlight{
+	font-size: 14px;
+	color:#555555;
+	text-align: left;
+}
+.twit .postsfl{
+	height: 80px;
+	
+}
+.pub{
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 12px;
+	color: #363636;
+}
+.bluetxt{
+	font-family: 'Montserrat-Regular', sans-serif;
+	color:#00bff3;
+	font-size: 14px;
+}
+.foothr{
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 12px;
+	color: #959595;
+	text-decoration: none;
+}
+.twit .postsfl .monseratlight:hover{
+	color:#c7b299;
+}
+.twit .postsemt .monseratlight:hover{
+	color:#c7b299;
+}
+
+.drible{
+	width:23%;
+	height: 450px;
+	float: left;
+	margin-top: 60px;
+}
+.drible .foottextfat{
+	margin-top: 15px;
+}
+.imgcont{
+	height: 210px;
+	width:100%;
+	margin-top: 30px;
+
+}
+.imgphone{
+	width: 48%;
+	height: 100px;
+	margin-right: 2%;
+	margin-bottom: 5px;
+	float: left;
+	background-image: url(images/photo3.jpg);
+	background-repeat: no-repeat;
+	background-size: 111%;
+}
+
+.imgbag{
+	width: 48%;
+	height: 100px;
+	margin-left: 2%;
+	margin-bottom: 5px;
+	float: right;
+	background-image: url(images/photo4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 102%;
+}
+.imgbook{
+	width: 48%;
+	height: 100px;
+	margin-right: 2%;
+	margin-top: 5px;
+	float: left;
+	background-image: url(images/photo5.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 102%;
+}
+.imglist{
+	width: 48%;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 2%;
+	float: right;
+	background-image: url(images/photo6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 102%;
+}
+
+.bottom{
+	width: 100%;
+	height: 100px;
+	background-color: #111111;
+}
+.bottomleft{
+	width:49%;
+	height: 90px;
+	float:left;	
+}
+.bottomleft ul li{
+	float:left;
+	margin-top: 40px;
+}
+.bottomleft ul li a{
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 12px;
+	color: #4c4c4c;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	border-right: 1px solid  #4c4c4c;
+}
+.bottomleft li a:hover{
+	color:#c7b299;
+}
+.white{
+	color:#838383;
+	text-decoration: none;
+}
+.bottomright{
+	width:49%;
+	height: 90px;
+	float:right;	
+}
+.bottomright ul li{
+	float:left;
+	margin-top: 40px;
+}
+.bottomright ul li a{
+	font-family: 'Montserrat-Regular', sans-serif;
+	font-size: 12px;
+	color: #4c4c4c;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	border-right: 1px solid  #4c4c4c;
+}
+
+
+ /*-------------------------------------*/
+
+@media screen and (max-width: 1100px) { /* 980<width<1100 main 980*/
+	.menu{
+		margin-left: 35px;
+	}
+	.center{
+		width: 99%;
+	}
+	.header {
+       width: 958px;
+	}
+	.logo {
+		width: 170px;}
+	.logo img {
+        width: 100%;
+	}
+	.slider {
+    height: 800px;
+	}
+	#featured img {
+       height: 800px;
+	}
+	.sliderdesk{
+		margin-left: 160px;
+	}
+	
+	.projmenu{
+		margin-left: 220px;
+	}
+	.phone{
+		    margin-left: 20px;
+}
+	.Claritas{
+		    margin-left: 20px;
+}
+	.book{
+		margin-right: 0px;
+	}
+	.Usus{
+		margin-right: 0px;
+	}
+	
+	#load{
+		margin: 20px 175px;
+	}
+	.foot{
+		margin-left: 15px;
+	}
+	.ship{
+		margin-right: 0px;
+	}
+	.imgphone{
+		background-size: 126%;
+	}
+}
+
+
+ /*-------------------------------------*/
+
+@media screen and (max-width: 979px) { /* 768<width<979 main 768*/
+	.logo {
+       width: 120px;
+	}
+	.menu nav li{
+		margin-top: 60px;
+		margin-right: 15px;
+	}
+	.menu nav li a{
+		font-size: 12px;
+	}
+	.menu {
+         margin-left: 20px;
+         width: 590px;
+	}
+	.sliderdesk{
+	    margin-left: 60px;
+    }
+	.slider {
+    height: 720px;
+	}
+	#featured img {
+       height: 720px;
+	}
+	.header {
+       width: 99%;
+	}
+	
+	.about .ralewaysem{font-size: 18px;}
+	.web{
+		background-position: center 20px;
+	}
+	.dev{
+		background-position: center 20px;
+	}
+	.cust{
+		background-position: center 20px;
+	}
+	.mark{
+		background-position: center 20px;
+	}
+	.about{
+		height: 275px;
+	}
+	.proj .monseratlight{
+		padding: 0px 110px 0px 110px;
+	}
+	
+	.projmenu{
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 120px;
+	}
+	
+	.works{
+		height: 635px;
+	}
+	
+	.works .ralewaymed{
+		margin-top: 240px;
+	}
+	.phone{
+		background-size: 100% 220px;
+		height: 295px;
+		margin-left: 15px;
+	}
+	.book{
+		background-size: 100% 220px;
+		height: 295px;
+		margin-right: 0px;
+	}
+	.rocks{
+		background-size: 100% 220px;
+		height: 295px;
+	}
+	.Claritas{
+		background-size: 100% 220px;
+		height: 295px;
+		margin-left: 15px;
+	}
+	.Quam{
+		background-size: 100% 220px;
+		height: 295px;
+		
+	}
+	.Usus{
+		background-size: 100% 220px;
+		height: 295px;
+		margin-right: 0px;
+	}
+	#load {
+    margin: 20px 115px;
+}
+	.hand{
+		background-size: 97%;
+	}
+	
+	.news .ralewaymed {
+        margin-top: 195px;
+        margin-left: 14px;
+        font-size: 18px;
+	}
+	.news .monseratlight {
+    margin-top: 7px;
+    margin-left: 14px;
+    font-size: 13px;
+	}
+	.news{
+	height: 370px;
+    }
+	.foot{
+		background-size: 100% 185px;
+		height: 350px;
+	}
+	.foot .arow {
+    margin-top: 24px;
+	}
+	.comp{
+		background-size: 100% 185px;
+		height: 350px;
+	}
+	.comp .arow {
+    margin-top: 24px;
+	}
+	.ship .arow{
+    margin-top: 24px;
+	}
+	.ship{
+		background-size: 100% 185px;
+		height: 350px;
+	}
+	
+	.wax{
+		background-size: 99%;
+	}
+	.imgphone {
+       background-size: 126% 100%;
+     }
+	.twit .monseratlight {
+       font-size: 12px;
+	}
+	.posts .monseratlight {
+       font-size: 12px;
+	}
+	.wax .monseratlight{
+		font-size: 12px;
+	}
+}
+
+/*-------------------------------------*/
+
+@media screen and (max-width: 767px) { /* 480<width<767 main 480*/
+    .logo {
+       width: 120px;
+	   height: 80px;
+	}
+	.logo img {
+        margin-top: 25px;
+	}
+	.menu nav li{
+		margin-top: 0px;
+		margin-right: 10px;
+	}
+	.menu nav li a{
+		font-size: 10px;
+	}
+	.menu {
+         margin-left: 0px;
+         width: 460px;
+		 height: 25px;
+	}
+	.descdesign{
+		font-size: 25px;
+	}
+	.fattext{
+		font-size: 26px;
+		margin-top: 6px;
+	}
+	.monseratlight{
+		font-size: 14px;
+	}
+	.sliderdesk {
+       width: 340px;
+	   height: 265px;
+		margin-top: 230px;
+	}
+	#started{
+		width: 140px;
+        height: 40px;
+		margin: 34px 110px;
+	}
+		.slider {
+    height: 520px;
+	}
+	#featured img {
+       height: 520px;
+	}
+	.dev{
+		width: 50%;
+		height: 50%;
+	}
+	.cust{
+		width: 50%;
+		height: 50%;
+	}
+	.web{
+		width: 50%;
+		height: 50%;
+	}
+	.mark{
+		width: 50%;
+		height: 50%;
+	}
+	.about {
+    height: 480px;
+    }
+	.proj .monseratlight{
+		padding: 0px 10px 0px 10px;
+	    font-size: 14px;
+	}
+	.proj .ralewaysem{
+		font-size: 25px;
+	}
+	.projmenu{
+		width: 459px;
+		margin-top: 10px;
+		margin-left:0px;
+	}
+	.projmenu ul{
+		margin-left: 10px;
+	}
+	.projmenu ul li a {
+        padding: 5px 10px 5px 10px;
+		font-size: 12px;
+	}
+	
+	.works{
+		height: 460px;
+	}
+	
+	.works .ralewaymed{
+		margin-top: 140px;
+		margin-left: 10px;
+		font-size: 12px;
+	}
+	.works .monseratlight{
+		margin-left: 10px;
+		font-size: 12px;
+	}
+	.phone{
+		background-size: 100% 130px;
+		height: 205px;
+		margin-left: 10px;
+	}
+	.book{
+		background-size: 100% 130px;;
+		height: 205px;
+		margin-right: 0px;
+	}
+	.rocks{
+		background-size: 100% 130px;;
+		height: 205px;
+	}
+	.Claritas{
+		background-size: 100% 130px;;
+		height: 205px;
+		margin-left: 10px;
+	}
+	.Quam{
+		background-size: 100% 130px;;
+		height: 205px;
+		
+	}
+	.Usus{
+		background-size: 100% 130px;
+		height: 205px;
+		margin-right: 0px;
+	}
+	#load {
+      margin: 20px 40px;
+     }
+	.hand{
+		display: none;
+	}
+	.mob{
+		width: 100%;
+		height: 420px;
+	}
+	.mob .ralewaysem {
+        margin-top: 25px;
+    }
+	.mobdev{
+		height: 420px;
+	}
+	
+	
+	.foot{
+		width:46%;
+		margin-left: 12px;
+	}
+	.comp{
+		width:46%;
+		margin-right: 0px;
+			
+	}
+	.ship{
+		
+		display: none;
+	}
+	.wax {
+		height: 180px;
+		width:99%;
+		margin-right: 0px;
+		margin-top: 20px;
+		background-size: 50%;
+		background-position: top center;
+	}
+	.wax .monseratlight{
+		text-align: center;
+		font-size: 13px;
+	}
+	.wax .arow{
+		margin-top: 15px;
+		margin-left: 190px
+	}
+	.posts{
+		width:45%;
+		height: 300px;
+		margin-left: 15px;
+		margin-top: 20px;
+	}
+	.twit{
+		width:45%;
+		height: 300px;
+		margin-top: 20px;
+		margin-right: 0px;
+	}
+	.postsemt {
+        height: 40px;
+    }
+	.postsfl {
+         height: 70px;
+	}
+	.footer{
+		height: 840px;
+	}
+	.footercont{
+		height: 840px;
+	}
+	.drible {
+       width: 60%;
+       height: 295px;
+       float: left;
+       margin-top: 20px;
+       margin-left: 85px;
+    }
+	.drible .foottextfat {
+        margin-top: 0px;
+		text-align: center;
+    }
+	.bottomleft {
+       width: 82%;
+       height: 45px;
+       margin-left: 62px;
+    }
+	.bottomleft ul li {
+      margin-top: 15px;
+}
+	.bottomleft ul li a {    
+        font-size: 12px;   
+        padding-right: 6px;
+        padding-left: 11px;
+	}
+	.bottomright{
+	   width: 82%;
+       height: 45px;
+       margin-left: 85px;
+	   float: left;
+	}
+	.bottomright ul li {
+        margin-top: 5px;
+    }
+}
+
+
+/*-------------------------------------*/
+
+@media screen and (max-width: 479px) { /* 320<width<479 main 320*/
+	.menu {
+       margin-left: 25px;
+       width: 275px;
+       height: 45px;
+	}
+	.logo {
+       height: 65px;
+       margin-left: 90px;
+}
+	.sliderdesk {
+        width: 300px;
+		margin-left: 0px;
+		margin-top: 175px;
+	}
+	.descdesign {
+       font-size: 17px;
+	}
+	.fattext {
+       font-size: 21px;
+       margin-top: 3px;
+	}
+	#started {
+       width: 130px;
+       height: 35px;
+       margin: 23px 0px 0px 85px;
+	   font-size: 14px;
+    }
+	.slider {
+      height: 420px;
+	}
+	#featured img {
+       height: 420px;
+	}
+	
+	.about .ralewaysem  {
+       font-size: 15px;
+		margin-top: 53%;
+    }
+	.about .monseratlight{
+		font-size: 13px;
+	}
+	.projmenu{
+		height: 40px;
+		width: 300px;
+		margin-top: 10px;
+		margin-left:0px;
+	}
+	.projmenu ul{
+		margin-left: 4px;
+	}
+	.projmenu ul li a {
+        padding: 5px ;
+		font-size: 8px;
+	}
+		
+	.works{
+		height: 730px;
+	}
+	.works .monseratlight{
+		margin-left: 7px;
+	}
+	.works .ralewaymed{
+		margin-top:170px;
+		margin-left: 7px;
+	}
+	.phone{
+		background-size: 100% 160px;
+		width:48%;
+		height: 230px;
+		margin-left: 2px;
+	}
+	.book{
+		background-size: 100% 160px;
+		width:48%;
+		height: 230px;
+		margin-left: 2px;
+		margin-top: 10px;
+	}
+	.rocks{
+		background-size: 100% 160px;
+		width:48%;
+		height: 230px;
+		margin-right: 0px;
+	}
+	.Claritas{
+		background-size: 100% 160px;
+		width:48%;
+		height: 230px;
+		margin-right: 0px;
+		margin-left: 3%;
+		margin-top: 10px;
+	}
+	.Quam{
+		background-size: 100% 160px;
+		width:48%;
+		height: 230px;
+		margin-left:2px;
+		margin-top: 10px;
+	}
+	.Usus{
+		background-size: 100% 160px;
+		width:48%;
+		height: 230px;
+		margin-top: 10px;
+	}
+	#load{
+		width: 130px;
+        height: 35px;
+        margin: 23px 0px 0px 92px;
+        font-size: 14px;
+	}
+    .load {
+       width: 100%;
+	}
+	.mob{
+		height: 475px;
+	}
+	.mobdev{
+		height: 475px;
+	}
+	
+	.news {
+    height: 290px;
+	}
+	
+	.news .monseratlight {
+       margin-top: 5px;
+       margin-left: 7px;
+       font-size: 11px;
+    }
+	.news .ralewaymed {
+         margin-top: 130px;
+		 margin-left: 10px;
+         font-size: 14px;
+	}
+	.foot{
+		height: 260px;
+	    background-size: 100% 125px;
+	}
+   .foot .arow {
+       margin-left: 15px;
+       font-size: 12px;
+       margin-top: 10px;
+    }
+	.comp{
+		height: 260px;
+	    background-size: 100% 125px;
+	}
+	
+	.comp .arow {
+      
+	   margin-left: 15px;
+       font-size: 12px;
+       margin-top: 10px;
+    }
+	.date{
+		font-size: 18px;
+		margin-top: 5px;
+        margin-left: 5px;
+	}
+	.month{
+		margin-top: 30px;
+        margin-left: 5px;
+		font-size: 9px;
+	}
+	.wax{
+		margin-top: 10px;
+	}
+	.wax .monseratlight{
+		margin-top: 55px;
+	}
+	.wax .arow {
+       margin-top: 10px;
+       margin-left: 110px;
+    }
+	.posts .foottextfat {
+       margin-top: 5px;
+       font-size: 18px;
+    }
+	.posts .monseratlight {
+       font-size: 11px;
+       margin-top: 0px;
+    }
+	.posts{
+		height: 265px;
+        margin-top: 10px;
+	}
+	.twit{
+		height: 265px;
+        margin-top: 10px;
+	}
+	.twit .monseratlight{
+		 font-size: 11px;
+       margin-top: 0px;
+	}
+	.twit .foottextfat{
+		margin-top: 5px;
+       font-size: 18px;
+	}
+	.twit .bluetxt{
+		font-size: 12px;
+	}
+	.pub{
+		font-size: 10px;
+	}
+	.footertime{
+			font-size: 10px;
+	}
+	.drible{
+		height: 275px;
+		margin-top: 15px;
+		margin-left: 60px;
+	}
+	.imgcont{
+		margin-top: 15px;
+	}
+	.footer {
+          height: 760px;
+    }
+	.footercont{
+		 height: 760px;
+	}
+	.bottomleft {
+       width: 95%;
+       height: 35px;
+       margin-left: 5px;
+    }
+	.bottomleft ul li {
+      margin-top: 10px;
+}
+	.bottomleft ul li a {    
+       font-size: 9px;
+       padding-right: 6px;
+       padding-left: 6px;
+	}
+	.bottomright{
+	   width: 95%;
+       height: 45px;
+       margin-left: 0px;
+	   float: left;
+	}
+	.bottomright ul li {
+        margin-top: 5px;
+    }
+	.bottomright ul li a {
+       font-size: 11px;
+       padding-right: 10px;
+       padding-left: 12px;
+	}
+}
+
+
+
+
+
